@@ -4,11 +4,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@stripe/react-stripe-js": "^1.4.1",
+    "@stripe/stripe-js": "^1.15.1",
+    "@types/uuid": "^8.3.0",
     "body-parser": "^1.19.0",
     "cors": "^2.8.5",
     "dotenv": "^10.0.0",
@@ -16,6 +20,11 @@
     "install": "^0.13.0",
     "jsonwebtoken": "^8.5.1",
     "mongodb": "^3.6.9",
-    "npm": "^7.18.1"
+    "npm": "^7.18.1",
+    "stripe": "^8.160.0",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.8"
   }
 }
